@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="origin" fetch="https://github.com/berkus/" />
+
+    <!-- default revision for each project, and name of the remote -->
+    <default revision="master" remote="origin" />
+
+    <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
+    <project name="uvvy" path="." />
+    <project name="libarsenal" path="arsenal" />
+    <project name="cmake-setup" path="cmake"/>
+    <project name="libkrypto" path="krypto" />
+    <project name="libnat" path="nat" />
+    <project name="librouting" path="routing" />
+    <project name="libsss" path="sss" />
+    <project name="travis-scripts" path="travis-ci" />
+    <project name="libuia" path="uia" />
+
+    <project name="dir_monitor" path="3rdparty/dir_monitor" />
+    <project name="endian" path="3rdparty/endian" />
+    <project name="metakit" path="3rdparty/metakit" />
+    <project name="opus" path="3rdparty/opus" />
+    <project name="rtaudio" path="3rdparty/rtaudio" />
+    <project name="sodiumpp" path="3rdparty/sodiumpp" />
+
+</manifest>
