@@ -8,7 +8,7 @@
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project name="metta-systems/uvvy" path="." revision="compile_layers" />
-    <project name="berkus/libarsenal" path="arsenal" revision="local_changes" />
+    <project name="berkus/libarsenal" path="arsenal" revision="work" />
     <project name="berkus/cmake-setup" path="cmake"/>
     <project name="berkus/libkrypto" path="krypto" revision="local_changes" />
     <project name="berkus/libnat" path="nat" revision="local_changes" />
